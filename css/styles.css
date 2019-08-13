@@ -81,25 +81,43 @@ body {
 }
 
 .testimonials {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ef8172;
-  color: #fff;
+
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+}
+
+.carousel-item {
+   padding: 7% 15% 7%;
 }
 
 .testimonials__image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+   width: 20%;
+   border-radius: 100%;
+   margin: 10px;
+}
+
+.testimonials__title {
+   font-family: 'Montserrat';
+   font-weight: 700;
+   font-size: 2.5rem;
+   line-height: 3.5rem;
+   text-align: center;
+   padding-bottom: 62px;
+}
+
+.carousel__icon {
+   margin: 32px auto;
 }
 
 .press {
-  text-align: center;
-  background-color: #ef8172;
-  padding-bottom: 3%;
+   text-align: center;
+   background-color: #ef8172;
+   padding-bottom: 3%;
+   margin-top: 2px;
 }
 
 .press__logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+   width: 15%;
+   margin: 20px 20px 50px;
 }
