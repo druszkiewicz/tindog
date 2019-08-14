@@ -15,7 +15,7 @@ body {
 }
 
 .container-fluid {
-   padding: 3% 5%;
+   padding: 7% 15%;
 }
 
 /* navigation section */
@@ -49,11 +49,17 @@ body {
 .title-image {
    width: 60%;
    transform: rotate(25deg);
+   /* z-index: -1; */
+   position: absolute;
 }
 
 /* Features section */
 .features-section {
    padding: 7% 15%;
+   background-color: #fff;
+   z-index: 1;
+   /* position: absolute; */
+   position: relative;
 }
 
 .feature-box {
