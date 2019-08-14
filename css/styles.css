@@ -57,7 +57,7 @@ body {
 .features-section {
    padding: 7% 15%;
    background-color: #fff;
-   z-index: 1;
+   /* z-index: 1; */
    /* position: absolute; */
    position: relative;
 }
