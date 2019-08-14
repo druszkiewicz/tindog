@@ -127,16 +127,13 @@ body {
 .pricing {
    text-align: center;
    font-family: 'Montserrat';
+   padding: 100px;
 }
 
 .pricing__title {
    font-weight: 700;
    font-size: 2rem;
    margin: 3rem 0 1.5rem 0;
-}
-
-.cards__row {
-   margin: 3px auto;
 }
 
 .card__column {
