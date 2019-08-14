@@ -21,7 +21,7 @@ body {
 /* navigation section */
 
 .nav-bar {
-   padding: 1.5rem 5rem;
+   padding: 1.5rem 15%;
 }
 
 .navbar-brand {
@@ -51,6 +51,7 @@ body {
    transform: rotate(25deg);
    /* z-index: -1; */
    position: absolute;
+   right: 30%;
 }
 
 /* Features section */
