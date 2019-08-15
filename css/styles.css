@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
    font-family: 'Montserrat';
 }
@@ -156,4 +160,61 @@ body {
    font-family: 'Ubuntu';
    font-weight: bold;
    font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+   /* z-index: -1; */
+   position: static;
+   margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+}
+
+/* footer section */
+
+
+.cta {
+  padding: 7% 15% 3%;
+  background: #ff4c68;
+}
+
+.cta__title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.footer {
+  padding: 3% 15%;
+}
+
+.copy_R {
+  text-align: center;
+  padding-top: 32px;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.footer__icon {
+  margin-left: 16px;
+  margin-right: 16px;
 }
